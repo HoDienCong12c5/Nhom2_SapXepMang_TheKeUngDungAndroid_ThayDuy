@@ -97,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
                         finish();
                     }
                 });
+                bui.create().show();
             }
         });
 

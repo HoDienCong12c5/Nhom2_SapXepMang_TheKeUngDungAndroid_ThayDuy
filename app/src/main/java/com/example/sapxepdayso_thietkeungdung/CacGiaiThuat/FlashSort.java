@@ -15,7 +15,7 @@ public class FlashSort implements Sort {
         arr[b] = temp;
     }
 
-    public Void flashsort(int[] mang)
+    public void flashsort(int[] mang)
     {
         int max = 0,min = mang[0];
         int n = mang.length;

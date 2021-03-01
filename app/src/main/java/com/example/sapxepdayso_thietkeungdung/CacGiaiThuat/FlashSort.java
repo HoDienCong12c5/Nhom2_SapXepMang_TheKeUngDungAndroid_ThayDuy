@@ -34,7 +34,7 @@ public class FlashSort implements Sort {
         }
         if(min== mang[max])
         {
-            return mang.toString();
+            return ;
         }
         double c1 = (m - 1) / (mang[max] - min);
         for(int k = 0;k < m;++k)
